@@ -57,9 +57,9 @@ def monstros(variavel):
     return variavel
 def mochila(variavel):
     inventario = [
-        {"poder" : "Bola de fogo" , "dano" : 20},
-        {"poder" : "Raio" , "dano" : 50},
-        {"poder" : "Rajada de Vento" , "dano" : 80}
+        {"poder" : "Bola de fogo" , "dano" : 20, "cooldownpadrao" : 2,"cooldownrodada" : 0},
+        {"poder" : "Raio" , "dano" : 50, "cooldownpadrao" : 3, "cooldownrodada": 0},
+        {"poder" : "Rajada de Vento" , "dano" : 80, "cooldownpadrao" : 4, "cooldownrodada" : 0}
     ]
     return inventario
 def ataque(variavel) : 
